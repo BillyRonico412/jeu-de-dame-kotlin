@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">jeu-de-dame</string>
+    <string name="app_name">Jeu De Dame</string>
+    <string name="titre">Jeu De Dame</string>
+    <string name="text_btn_solo">Joueur vs IA</string>
+    <string name="text_btn_multijoueur">Multijoueur</string>
 </resources>
