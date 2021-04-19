@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/couleur_fond"
+    android:background="@color/couleur_principal"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_marginVertical="40dp"
         android:fontFamily="@font/yatra_one"
         android:text="@string/titre"
-        android:textColor="@color/couleur_bouton"
+        android:textColor="@color/couleur_secondaire"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/btn_multijoueur"
@@ -28,8 +28,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/yatra_one"
-        android:textColor="@color/couleur_fond"
-        android:backgroundTint="@color/couleur_bouton"
+        android:textColor="@color/couleur_principal"
+        android:backgroundTint="@color/couleur_secondaire"
         android:textSize="20sp"
         android:paddingVertical="15dp"
         android:paddingHorizontal="30dp"
@@ -38,7 +38,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/titre"
         app:layout_constraintBottom_toTopOf="@id/btn_joueur_vs_ia"
-        android:text="@string/text_btn_solo"
+        android:text="@string/text_btn_multijoueur"
         />
 
     <Button
@@ -46,8 +46,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/yatra_one"
-        android:textColor="@color/couleur_fond"
-        android:backgroundTint="@color/couleur_bouton"
+        android:textColor="@color/couleur_principal"
+        android:backgroundTint="@color/couleur_secondaire"
         android:textSize="20sp"
         android:paddingVertical="15dp"
         android:paddingHorizontal="30dp"
@@ -55,7 +55,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_multijoueur"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:text="@string/text_btn_multijoueur"
+        android:text="@string/text_btn_solo"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,6 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="couleur_fond">#FF4C3030</color>
-    <color name="couleur_bouton">#FFEDC39D</color>
+    <color name="couleur_principal">#FF4A2B2B</color>
+    <color name="couleur_secondaire">#FFEDC39D</color>
+    <color name="couleur_tertiere">#FF006494</color>
+    <color name="color_damier_2">#FFE2CA86</color>
+    <color name="color_damier_1">#FF8B5831</color>
+    <color name="color_rouge">#FFBF3131</color>
+    <color name="color_orange">#FFFA9F42</color>
+    <color name="color_vert">#FF17A398</color>
 </resources>
