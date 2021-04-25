@@ -33,6 +33,7 @@ class Partie(
 
     // Joueur Noir
     private var joueur2: Joueur = Joueur(
+
         taille, nbrePiece, CouleurPiece.NOIR, Direction.BAS
     )
 
