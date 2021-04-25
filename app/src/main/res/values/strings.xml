@@ -3,4 +3,6 @@
     <string name="titre">Jeu De Dame</string>
     <string name="text_btn_solo">Joueur vs IA</string>
     <string name="text_btn_multijoueur">Multijoueur</string>
+    <string name="btn_rejouer">Rejouer</string>
+    <string name="btn_quitter">Quitter</string>
 </resources>

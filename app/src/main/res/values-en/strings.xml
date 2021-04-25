@@ -4,4 +4,6 @@
     <string name="titre">Checkers</string>
     <string name="text_btn_solo">Player vs AI</string>
     <string name="text_btn_multijoueur">Multiplayer</string>
+    <string name="btn_rejouer">Restart</string>
+    <string name="btn_quitter">Quit</string>
 </resources>

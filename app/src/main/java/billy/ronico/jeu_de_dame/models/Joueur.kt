@@ -74,4 +74,23 @@ class Joueur(
         }
     }
 
+    fun changeDame(coordonne: Coordonne) {
+
+        println(coordonne)
+
+        for (i in 0 until tabPiece.size)
+            if (tabPiece[i].coordonne.compare(coordonne)) {
+                val ancienPiece = tabPiece[i]
+                println(ancienPiece)
+                if (ancienPiece is PieceNormal) {
+                    tabPiece[i] = PieceDame(
+                        couleurPiece, direction, ancienPiece.coordonne, taille
+                    )
+                }
+                break
+            }
+
+
+    }
+
 }

@@ -68,10 +68,10 @@ class Case(
         etatCase = _etatCase
         when (etatCase) {
             EtatCase.VIDE -> setImageResource(0)
-            EtatCase.BLANC -> setImageResource(R.drawable.pion1)
-            EtatCase.NOIR -> setImageResource(R.drawable.pion2)
-            EtatCase.BLANC_DAME -> setImageResource(R.drawable.pion1)
-            EtatCase.NOIR_DAME -> setImageResource(R.drawable.pion2)
+            EtatCase.BLANC -> setImageResource(R.drawable.pion_blanc)
+            EtatCase.NOIR -> setImageResource(R.drawable.pion_noir)
+            EtatCase.BLANC_DAME -> setImageResource(R.drawable.dame_blanc)
+            EtatCase.NOIR_DAME -> setImageResource(R.drawable.dame_noir)
         }
     }
 

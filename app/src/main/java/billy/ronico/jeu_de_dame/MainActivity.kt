@@ -20,12 +20,10 @@ class MainActivity : AppCompatActivity() {
 
         val self = this
 
-        btn_multijoueur.setOnClickListener(object: View.OnClickListener{
-            override fun onClick(v: View?) {
-                val intent = Intent(self, MultiplayerActivity::class.java)
-                startActivity(intent)
-            }
-        })
+        btn_multijoueur.setOnClickListener {
+            val intent = Intent(self, MultiplayerActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 }
