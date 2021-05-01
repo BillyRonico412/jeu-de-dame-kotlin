@@ -1,31 +1,26 @@
 package billy.ronico.jeu_de_dame
 
 import android.graphics.Color
-import android.os.Build
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.DisplayMetrics
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.LinearLayout
-import androidx.annotation.RequiresApi
-import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import billy.ronico.jeu_de_dame.controlers.Partie
+import billy.ronico.jeu_de_dame.controlers.PartieAvecIA
 import billy.ronico.jeu_de_dame.models.Setting
 import billy.ronico.jeu_de_dame.views.Damier
-import com.beust.klaxon.Klaxon
-import java.io.File
-import java.io.InputStream
 
+class IaActivity : AppCompatActivity() {
 
-class MultiplayerActivity : AppCompatActivity() {
-
-    lateinit var partie: Partie
+    lateinit var partieAvecIa: PartieAvecIA
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_multiplayer)
+        setContentView(R.layout.activity_ia)
 
         val setting = intent.getParcelableExtra<Setting>("setting")!!
 
@@ -45,7 +40,7 @@ class MultiplayerActivity : AppCompatActivity() {
             ContextCompat.getColor(this, R.color.color_case_non_jouer_3)
         )
 
-        partie = Partie(nbrePiece, taille)
+        partieAvecIa = PartieAvecIA(nbrePiece, taille, setting.profondeur)
 
         val displayMetrics = DisplayMetrics()
         windowManager.defaultDisplay.getMetrics(displayMetrics)
@@ -53,20 +48,20 @@ class MultiplayerActivity : AppCompatActivity() {
 
         val damier = Damier(
             this,
-            partie.taille,
-            partie.etatJeu,
-            (width - 50) / partie.taille,
+            partieAvecIa.taille,
+            partieAvecIa.etatJeu,
+            (width - 50) / partieAvecIa.taille,
             allCouleurCaseJouable[setting.colorCase],
             allCouleurCaseNonJouable[setting.colorCase]
         )
 
-        partie.initDamier(damier)
+        partieAvecIa.initDamier(damier)
 
-        val layoutDamier = findViewById<LinearLayout>(R.id.layout_damier_multijoueur)
+        val layoutDamier = findViewById<LinearLayout>(R.id.layout_damier_ia)
 
         layoutDamier.addView(damier)
 
-        partie.initFunAfficheDialog {
+        partieAvecIa.initFunAfficheDialog {
             val fragmentDialog = FinPartieDialog(it, this)
             fragmentDialog.show(supportFragmentManager, "victoireDialog")
         }
@@ -81,16 +76,15 @@ class MultiplayerActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.btn_reset -> {
-                val fragmentResetDialog = ConfirmResetDialog(partie)
+                val fragmentResetDialog = ConfirmResetDialog(partieAvecIa)
                 fragmentResetDialog.show(supportFragmentManager, "resetDialog")
                 true
             }
             R.id.btn_rewind -> {
-                partie.precedent()
+                partieAvecIa.precedent()
                 true
             }
             else -> false
         }
     }
-
 }

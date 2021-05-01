@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="couleur_principal">#FF4A2B2B</color>
-    <color name="couleur_secondaire">#FFEDC39D</color>
-    <color name="couleur_tertiere">#FF006494</color>
-    <color name="color_damier_2">#FFE2CA86</color>
-    <color name="color_damier_1">#FF8B5831</color>
-    <color name="color_rouge">#FFBF3131</color>
-    <color name="color_orange">#FFFA9F42</color>
-    <color name="color_vert">#FF17A398</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="couleur_principal">#4A2B2B</color>
+    <color name="couleur_secondaire">#EDC39D</color>
+    <color name="couleur_tertiere">#006494</color>
+    <color name="color_case_non_jouer_1">#E2CA86</color>
+    <color name="color_case_jouer_1">#8B5831</color>
+    <color name="color_case_non_jouer_2">#F9F0DF</color>
+    <color name="color_case_jouer_2">#998A77</color>
+    <color name="color_case_non_jouer_3">#C4C47A</color>
+    <color name="color_case_jouer_3">#A1A148</color>
+    <color name="color_rouge">#BF3131</color>
+    <color name="color_orange">#FA9F42</color>
+    <color name="color_vert">#17A398</color>
 </resources>

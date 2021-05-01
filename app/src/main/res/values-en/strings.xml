@@ -6,4 +6,18 @@
     <string name="text_btn_multijoueur">Multiplayer</string>
     <string name="btn_rejouer">Restart</string>
     <string name="btn_quitter">Quit</string>
+    <string name="question_rejouer">Do you want to play again?</string>
+    <string name="text_oui">Yes</string>
+    <string name="text_non">No</string>
+    <string name="vainqueur">Winner</string>
+    <string name="joueur_blanc">White Player</string>
+    <string name="joueur_noir">Black Player</string>
+    <string name="precedent">Rewind</string>
+    <string name="setting">Setting</string>
+    <string name="damier">Checkerboard</string>
+    <string name="valider">Validate</string>
+    <string name="ia_difficult">IA Difficulty</string>
+    <string name="difficult_1">Easy</string>
+    <string name="difficult_2">Medium</string>
+    <string name="difficult_3">Hard</string>
 </resources>

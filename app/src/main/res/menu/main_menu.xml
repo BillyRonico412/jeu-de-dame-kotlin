@@ -2,10 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:id="@+id/btn_reset"
-        android:icon="@drawable/icon_reset"
-        android:title="@string/btn_rejouer"
-            app:showAsAction="always"
-        />
+    <item
+            android:id="@+id/btn_rewind"
+            android:icon="@drawable/icon_rewind"
+            app:showAsAction="ifRoom"
+            android:title="@string/precedent"
+            />
+
+    <item
+            android:id="@+id/btn_reset"
+            android:icon="@drawable/icon_reset"
+            android:title="@string/btn_rejouer"
+            app:showAsAction="ifRoom" />
 
 </menu>

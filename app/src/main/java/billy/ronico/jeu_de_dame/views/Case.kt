@@ -19,16 +19,16 @@ import billy.ronico.jeu_de_dame.enums.EtatCase
 @SuppressLint("ResourceType")
 class Case(
         context: Context, var couleurCase: CouleurCase,
-        var etatCase: EtatCase
+        var etatCase: EtatCase, val dimensionCase: Int,
+        val couleurCaseJouable: Int,
+        val couleurCaseNonJouable: Int
+
 ) : androidx.appcompat.widget.AppCompatImageView(context) {
 
     // Initialisation des couleurs et de la dimension d'une case
-    val couleurDamier1: Int = ContextCompat.getColor(context, R.color.color_damier_1)
-    val couleurDamier2: Int = ContextCompat.getColor(context, R.color.color_damier_2)
     val couleurVert: Int = ContextCompat.getColor(context, R.color.color_vert)
     val couleurRouge: Int = ContextCompat.getColor(context, R.color.color_rouge)
     val couleurOrange: Int = ContextCompat.getColor(context, R.color.color_orange)
-    val dimensionCase: Int = resources.getDimension(R.dimen.taille_case).toInt()
 
     // Permet de definir les bordures
     override fun onDraw(canvas: Canvas?) {
@@ -55,8 +55,8 @@ class Case(
     fun updateCouleur(_couleurCase: CouleurCase) {
         couleurCase = _couleurCase
         when (couleurCase) {
-            CouleurCase.COULEURCASE1 -> setBackgroundColor(couleurDamier1)
-            CouleurCase.COULEURCASE2 -> setBackgroundColor(couleurDamier2)
+            CouleurCase.COULEURCASE1 -> setBackgroundColor(couleurCaseJouable)
+            CouleurCase.COULEURCASE2 -> setBackgroundColor(couleurCaseNonJouable)
             CouleurCase.ROUGE -> setBackgroundColor(couleurRouge)
             CouleurCase.VERT -> setBackgroundColor(couleurVert)
             CouleurCase.ORANGE -> setBackgroundColor(couleurOrange)

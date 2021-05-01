@@ -9,11 +9,17 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.Jeudedame">
-        <activity android:name=".MultiplayerActivity"></activity>
+        <activity android:name=".SettingActivity"></activity>
+        <activity
+                android:name=".IaActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".MultiplayerActivity"
+                android:screenOrientation="portrait" />
         <activity
                 android:name=".MainActivity"
-                android:theme="@style/Theme.AppCompat.NoActionBar"
-                android:screenOrientation="portrait">
+                android:screenOrientation="portrait"
+                android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

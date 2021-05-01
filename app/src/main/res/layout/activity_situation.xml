@@ -8,7 +8,7 @@
         tools:context=".MultiplayerActivity">
 
     <LinearLayout
-            android:id="@+id/layout_damier_multijoueur"
+            android:id="@+id/layout_damier_situation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="parent"

@@ -1,0 +1,11 @@
+\begin{thebibliography}{1}
+
+\bibitem{miniMax}
+{Algorithme} minimax.
+\newblock \url{https://fr.wikipedia.org/wiki/Algorithme_minimax}.
+
+\bibitem{regleJeuDame}
+{Regle} du jeu de dame.
+\newblock \url{http://www.lecomptoirdesjeux.com/regle-jeu-dames.htm}.
+
+\end{thebibliography}

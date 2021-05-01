@@ -3,21 +3,12 @@ package billy.ronico.jeu_de_dame
 import android.app.AlertDialog
 import android.app.Dialog
 import android.content.Intent
-import android.graphics.Color
 import android.os.Bundle
-import android.view.Gravity
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
-import androidx.core.content.res.ResourcesCompat
 import androidx.fragment.app.DialogFragment
-import billy.ronico.jeu_de_dame.controlers.Partie
 
-class FinPartieDialog(val textMessage: String, val ctx: AppCompatActivity): DialogFragment() {
+class FinPartieDialog(val boolVictoire: Boolean, val ctx: AppCompatActivity): DialogFragment() {
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
 
@@ -27,16 +18,19 @@ class FinPartieDialog(val textMessage: String, val ctx: AppCompatActivity): Dial
 
         val textView = layoutDialog?.findViewById<TextView>(R.id.text_vainqueur_dialog)
 
-        textView?.text = textMessage
+        textView?.text = if (boolVictoire)
+            resources.getString(R.string.joueur_blanc)
+        else resources.getString(R.string.joueur_noir)
 
         builder.setView(layoutDialog)
             .setPositiveButton(resources.getText(R.string.btn_rejouer), null)
-            .setNegativeButton(resources.getText(R.string.btn_quitter)) { dialog, id ->
+            .setNegativeButton(resources.getText(R.string.btn_quitter)) { _, _ ->
                 val intent = Intent(ctx, MainActivity::class.java)
                 startActivity(intent)
             }
 
         return builder.create()
+
     }
 
 }

@@ -4,9 +4,9 @@
     <style name="Theme.Jeudedame" parent="Theme.AppCompat.Light.DarkActionBar">
 
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#FF8B5831</item>
-        <item name="colorPrimaryVariant">#FF8B5831</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">@color/color_case_jouer_1</item>
+        <item name="colorPrimaryVariant">@color/color_case_jouer_1</item>
+        <item name="colorOnPrimary">@color/color_case_jouer_1</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>

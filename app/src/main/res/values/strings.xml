@@ -5,4 +5,18 @@
     <string name="text_btn_multijoueur">Multijoueur</string>
     <string name="btn_rejouer">Rejouer</string>
     <string name="btn_quitter">Quitter</string>
+    <string name="question_rejouer">Voulez vous rejouer ?</string>
+    <string name="text_oui">Oui</string>
+    <string name="text_non">Non</string>
+    <string name="vainqueur">Vainqueur</string>
+    <string name="joueur_blanc">Joueur Blanc</string>
+    <string name="joueur_noir">Joueur Noir</string>
+    <string name="precedent">Precedent</string>
+    <string name="setting">Paramètres</string>
+    <string name="damier">Damier</string>
+    <string name="valider">Valider</string>
+    <string name="ia_difficult">Difficulté IA</string>
+    <string name="difficult_1">Facile</string>
+    <string name="difficult_2">Normal</string>
+    <string name="difficult_3">Dure</string>
 </resources>
