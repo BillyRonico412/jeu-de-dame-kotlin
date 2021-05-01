@@ -3,10 +3,12 @@ package billy.ronico.jeu_de_dame
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Parcelable
 import android.widget.Button
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import billy.ronico.jeu_de_dame.models.Setting
+import billy.ronico.jeu_de_dame.utils.persisteSetting
 
 class SettingActivity : AppCompatActivity() {
 
@@ -78,8 +80,9 @@ class SettingActivity : AppCompatActivity() {
                 R.id.radio_difficult_3 -> setting.profondeur = 4
             }
 
+            persisteSetting(this, setting)
             val intent = Intent(this, MainActivity::class.java)
-            intent.putExtra("setting", setting)
+            intent.putExtra("setting", setting as Parcelable)
             startActivity(intent)
 
         }

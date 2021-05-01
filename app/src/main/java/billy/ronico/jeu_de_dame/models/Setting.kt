@@ -2,6 +2,7 @@ package billy.ronico.jeu_de_dame.models
 
 import android.os.Parcel
 import android.os.Parcelable
+import java.io.Serializable
 
 data class Setting(
 
@@ -15,13 +16,12 @@ data class Setting(
         else -> 12
     }
 
-) : Parcelable {
+) : Parcelable, Serializable {
 
     constructor(parcel: Parcel) : this(
         parcel.readInt(),
         parcel.readInt(),
         parcel.readInt(),
-        parcel.readInt()
     ) {
     }
 
@@ -29,7 +29,6 @@ data class Setting(
         parcel.writeInt(colorCase)
         parcel.writeInt(tailleDamier)
         parcel.writeInt(profondeur)
-        parcel.writeInt(nbrePiece)
     }
 
     override fun describeContents(): Int {
@@ -37,6 +36,7 @@ data class Setting(
     }
 
     companion object CREATOR : Parcelable.Creator<Setting> {
+        private val seralVersionUid: Long = 12323465
         override fun createFromParcel(parcel: Parcel): Setting {
             return Setting(parcel)
         }

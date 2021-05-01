@@ -3,9 +3,11 @@ package billy.ronico.jeu_de_dame
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Parcelable
 import android.view.View
 import android.widget.Button
 import billy.ronico.jeu_de_dame.models.Setting
+import billy.ronico.jeu_de_dame.utils.loadSetting
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var setting = intent.getParcelableExtra<Setting>("setting")
+        var setting = loadSetting(this)
         if (setting !is Setting)
             setting = Setting(0, 6, 3)
 
@@ -29,19 +31,19 @@ class MainActivity : AppCompatActivity() {
 
         btn_multijoueur.setOnClickListener {
             val intent = Intent(self, MultiplayerActivity::class.java)
-            intent.putExtra("setting", setting)
+            intent.putExtra("setting", setting as Parcelable)
             startActivity(intent)
         }
 
         btn_joueur_vs_ia.setOnClickListener {
             val intent = Intent(self, IaActivity::class.java)
-            intent.putExtra("setting", setting)
+            intent.putExtra("setting", setting as Parcelable)
             startActivity(intent)
         }
 
         btn_setting.setOnClickListener {
             val intent = Intent(self, SettingActivity::class.java)
-            intent.putExtra("setting", setting)
+            intent.putExtra("setting", setting as Parcelable)
             startActivity(intent)
         }
 
