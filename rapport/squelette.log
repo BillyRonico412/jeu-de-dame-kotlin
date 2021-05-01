@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.4.20)  1 MAY 2021 16:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.4.20)  1 MAY 2021 17:23
 entering extended mode
 **c:/Users/billy/AndroidStudioProjects/jeudedame/rapport/squelette.tex
 (c:/Users/billy/AndroidStudioProjects/jeudedame/rapport/squelette.tex
@@ -367,12 +367,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 32.
 
-<Images//menu_principal.png, id=52, 1445.4pt x 3051.4pt>
+<Images//menu_principal.png, id=64, 1445.4pt x 3051.4pt>
 File: Images//menu_principal.png Graphic file (type png)
 <use Images//menu_principal.png>
 Package pdftex.def Info: Images//menu_principal.png  used on input line 57.
 (pdftex.def)             Requested size: 144.54846pt x 305.15788pt.
-<Images//partie_1.png, id=54, 1445.4pt x 3051.4pt>
+<Images//partie_1.png, id=66, 1445.4pt x 3051.4pt>
 File: Images//partie_1.png Graphic file (type png)
 <use Images//partie_1.png>
 Package pdftex.def Info: Images//partie_1.png  used on input line 58.
@@ -380,53 +380,53 @@ Package pdftex.def Info: Images//partie_1.png  used on input line 58.
 [1
 
 {C:/Users/billy/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-<Images//setting_en.png, id=69, 1445.4pt x 3051.4pt>
+<Images//setting_en.png, id=81, 1445.4pt x 3051.4pt>
 File: Images//setting_en.png Graphic file (type png)
 <use Images//setting_en.png>
 Package pdftex.def Info: Images//setting_en.png  used on input line 81.
 (pdftex.def)             Requested size: 144.54846pt x 305.15788pt.
-<Images//partie_2.png, id=70, 1445.4pt x 3051.4pt>
+<Images//partie_2.png, id=82, 1445.4pt x 3051.4pt>
 File: Images//partie_2.png Graphic file (type png)
 <use Images//partie_2.png>
 Package pdftex.def Info: Images//partie_2.png  used on input line 82.
 (pdftex.def)             Requested size: 144.54846pt x 305.15788pt.
  [2 <./Images//menu_principal.png> <./Images//partie_1.png>]
-<Images//setting_tablet_fr.png, id=82, 1806.75pt x 2569.6pt>
+<Images//setting_tablet_fr.png, id=94, 1806.75pt x 2569.6pt>
 File: Images//setting_tablet_fr.png Graphic file (type png)
 <use Images//setting_tablet_fr.png>
 Package pdftex.def Info: Images//setting_tablet_fr.png  used on input line 99.
 (pdftex.def)             Requested size: 180.68558pt x 256.97505pt.
-<Images//pop_up_victoire_tablet.png, id=83, 1806.75pt x 2569.6pt>
+<Images//pop_up_victoire_tablet.png, id=95, 1806.75pt x 2569.6pt>
 File: Images//pop_up_victoire_tablet.png Graphic file (type png)
 <use Images//pop_up_victoire_tablet.png>
 Package pdftex.def Info: Images//pop_up_victoire_tablet.png  used on input line 100.
 (pdftex.def)             Requested size: 180.68558pt x 256.97505pt.
  [3 <./Images//setting_en.png> <./Images//partie_2.png>]
-<Images//diagramme.png, id=93, 1510.64375pt x 1401.235pt>
+<Images//diagramme.png, id=105, 1510.64375pt x 1401.235pt>
 File: Images//diagramme.png Graphic file (type png)
 <use Images//diagramme.png>
 Package pdftex.def Info: Images//diagramme.png  used on input line 127.
 (pdftex.def)             Requested size: 392.75812pt x 364.31252pt.
  [4 <./Images//setting_tablet_fr.png> <./Images//pop_up_victoire_tablet.png>] [5 <./Images//diagramme.png>]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 164.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 171.
  (C:\Users\billy\Documents\logiciel\MikTex\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) (squelette.bbl) [6] (squelette.aux)
+) [6] (squelette.bbl) [7] (squelette.aux)
 Package rerunfilecheck Info: File `squelette.out' has not changed.
-(rerunfilecheck)             Checksum: 2FF312DE64B4D8EE164C346D450BED9E;1763.
+(rerunfilecheck)             Checksum: F152292892E88A716B631291C6FDC0C4;2561.
  ) 
 Here is how much of TeX's memory you used:
- 11626 strings out of 479337
- 169861 string characters out of 2859035
- 497980 words of memory out of 3000000
- 28867 multiletter control sequences out of 15000+200000
+ 11633 strings out of 479337
+ 169977 string characters out of 2859035
+ 503983 words of memory out of 3000000
+ 28870 multiletter control sequences out of 15000+200000
  417628 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,6n,74p,429b,576s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,6n,74p,477b,576s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
-Output written on squelette.pdf (6 pages, 1138477 bytes).
+Output written on squelette.pdf (7 pages, 1150782 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 132 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 463 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 

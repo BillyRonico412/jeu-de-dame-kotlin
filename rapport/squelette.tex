@@ -157,10 +157,17 @@ En résumé:
   Cette classe permet la liaison entre la vue \textbf{Damier} et le model \textbf{EtatCase}
   et permet de mettre en place les evenement, colorier les cases, etc... 
 
+  En gros, elle fait fonctionner le Jeu
+
   \subsubsection{IA}
 
+  Cette classe est une implémentation d'une classe anonyme (Une bibliothèque)
 
-\textbf{Extrait de code de la fonction minMax}
+  Elle contient la fonction resolve qui à partir d'un \textbf{EtatJeu} 
+  de deduire le meilleure coup possible.
+
+\subsubsection{Extrait de code de la fonction minMax}
+
 \begin{verbatim}
   fun minMax(tourIA: Tour): Int {
 
@@ -181,13 +188,60 @@ En résumé:
         }
 
     }
+
 \end{verbatim}
+
+\subsubsection{Extrait de code de génération de l'arbre des possibles}
+
+La fonction d'évaluation utilisé 
+
+\begin{verbatim}
+
+  fun getArbreEtat(
+    etatJeu: EtatJeu,
+    profondeur: Int,
+    poids: Int = 0,
+    tourIa: Tour = etatJeu.tour
+  ): ArbreEtat {
+
+      return when {
+          profondeur === 0 -> ArbreVideEtat
+          etatJeu.evolution().isEmpty() -> NoeudArbreEtat(
+              infoArbreEtat = InfoArbreEtat(etatJeu, poids), 
+              fils = mutableListOf(ArbreVideEtat)
+          )
+          else -> NoeudArbreEtat(
+              infoArbreEtat = InfoArbreEtat(etatJeu, poids),
+              fils = etatJeu.evolution().map {
+                  getArbreEtat(
+                      it.etatJeu,
+                      profondeur - 1,
+                      poids + 
+                      if (tourIa === it.etatJeu.tour) 
+                        -1 * it.poids 
+                      else it.poids
+                  )
+              } as MutableList<ArbreEtat>
+          )
+      }
+
+}
+
+\end{verbatim}
+
 
 \subsection{iOS} %% une autre sous-section
 
 
 \section{Quelques points délicats/intéressants}
 
+\subsection{Points Intéressants}
+
+\begin{itemize}
+  \item Le critère d'évaluation utilisé pour l'algorithme MiniMax est le nombre de Pièce manger
+  \item La profondeur de l'algorithme minimax varie entre 2 (facile) à 4 (difficile)
+  \item Plus la taille du damier est grand, plus l'IA prend du temps pour les calculs
+\end{itemize}
 
 \section{Conclusion}
 
