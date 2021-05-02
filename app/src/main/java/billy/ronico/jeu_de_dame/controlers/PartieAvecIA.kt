@@ -8,6 +8,7 @@ import billy.ronico.jeu_de_dame.enums.Tour
 import billy.ronico.jeu_de_dame.ia.IA
 import billy.ronico.jeu_de_dame.models.Coordonne
 import billy.ronico.jeu_de_dame.models.Evolution
+import billy.ronico.jeu_de_dame.models.InfoManger
 import billy.ronico.jeu_de_dame.views.Damier
 
 class PartieAvecIA(
@@ -122,88 +123,102 @@ class PartieAvecIA(
 
                 } else {
 
+                    val coordonneCourantDejaTraiter = mutableListOf<Coordonne>()
+
                     evolutionPossible.evolutionManger.forEach { allCheminManger ->
 
                         val coordonneCourant: Coordonne = allCheminManger[0][0].coordonneCourant
 
-                        damier.changeCouleurCase(coordonneCourant, CouleurCase.ORANGE)
+                        if (!coordonneCourantDejaTraiter.any { it.compare(coordonneCourant) }) {
 
-                        damier.addEventCase(coordonneCourant) {
+                            val allCheminAvecMemeCoordonneCourant: MutableList<MutableList<MutableList<InfoManger>>> =
+                                evolutionPossible.evolutionManger.filter {
+                                    it[0][0].coordonneCourant === coordonneCourant
+                                } as MutableList<MutableList<MutableList<InfoManger>>>
 
-                            casesAvecEvent.forEach { damier.initEvent(it) }
-                            casesAvecEvent = mutableListOf()
+                            damier.changeCouleurCase(coordonneCourant, CouleurCase.ORANGE)
 
-                            damier.initCouleur(CouleurCase.VERT)
+                            damier.addEventCase(coordonneCourant) {
 
-                            evolutionPossible.evolutionManger.forEach { allCheminManger2 ->
-                                if (!(allCheminManger2[0][0].coordonneCourant.compare(
-                                        coordonneCourant
-                                    ))
-                                )
-                                    damier.changeCouleurCase(
+                                casesAvecEvent.forEach { damier.initEvent(it) }
+                                casesAvecEvent = mutableListOf()
+
+                                damier.initCouleur(CouleurCase.VERT)
+
+                                evolutionPossible.evolutionManger.forEach { allCheminManger2 ->
+                                    if (!(allCheminManger2[0][0].coordonneCourant.compare(coordonneCourant)))
+                                        damier.changeCouleurCase(
+                                            allCheminManger2[0][0].coordonneCourant,
+                                            CouleurCase.ORANGE
+                                        )
+                                    else damier.changeCouleurCase(
                                         allCheminManger2[0][0].coordonneCourant,
-                                        CouleurCase.ORANGE
-                                    )
-                                else damier.changeCouleurCase(
-                                    allCheminManger2[0][0].coordonneCourant,
-                                    CouleurCase.VERT
-                                )
-                            }
-
-                            allCheminManger.forEach { chemin ->
-
-                                chemin.forEachIndexed { indexInfoManger, infoManger ->
-
-                                    damier.changeCouleurCase(
-                                        infoManger.coordonneManger,
                                         CouleurCase.VERT
                                     )
-                                    damier.addEventCase(infoManger.coordonneManger) {}
-                                    casesAvecEvent.add(infoManger.coordonneManger)
+                                }
 
-                                    etatJeu.caseEntre(
-                                        infoManger.coordonneManger,
-                                        infoManger.coordonneCourant
-                                    ).forEach {
-                                        damier.changeCouleurCase(it, CouleurCase.VERT)
-                                        damier.addEventCase(it) {}
-                                        casesAvecEvent.add(it)
-                                    }
+                                allCheminAvecMemeCoordonneCourant.forEach { allCheminMangerUnique ->
 
-                                    if (indexInfoManger !== 0) {
+                                    allCheminMangerUnique.forEach { chemin ->
 
-                                        damier.changeCouleurCase(
-                                            infoManger.coordonneCourant,
-                                            CouleurCase.VERT
-                                        )
-                                        damier.addEventCase(infoManger.coordonneCourant) {}
+                                        chemin.forEachIndexed { indexInfoManger, infoManger ->
 
-                                        etatJeu.caseEntre(
-                                            chemin[indexInfoManger - 1].coordonneManger,
-                                            infoManger.coordonneCourant
-                                        ).forEach {
-                                            damier.changeCouleurCase(it, CouleurCase.VERT)
-                                            damier.addEventCase(it) {}
-                                            casesAvecEvent.add(it)
-                                        }
+                                            damier.changeCouleurCase(
+                                                infoManger.coordonneManger,
+                                                CouleurCase.VERT
+                                            )
+                                            damier.addEventCase(infoManger.coordonneManger) {}
+                                            casesAvecEvent.add(infoManger.coordonneManger)
 
-                                        casesAvecEvent.add(infoManger.coordonneCourant)
-                                    }
-
-                                    if (indexInfoManger === chemin.size - 1)
-                                        infoManger.coordonneApres.forEach {
-                                            damier.changeCouleurCase(it, CouleurCase.VERT)
-                                            damier.addEventCase(it) {
-                                                allEtatJeu.add(etatJeu)
-                                                etatJeu = etatJeu.manger(chemin, it)
-                                                partie()
+                                            etatJeu.caseEntre(
+                                                infoManger.coordonneManger,
+                                                infoManger.coordonneCourant
+                                            ).forEach {
+                                                damier.changeCouleurCase(it, CouleurCase.VERT)
+                                                damier.addEventCase(it) {}
+                                                casesAvecEvent.add(it)
                                             }
+
+                                            if (indexInfoManger !== 0) {
+
+                                                damier.changeCouleurCase(
+                                                    infoManger.coordonneCourant,
+                                                    CouleurCase.VERT
+                                                )
+                                                damier.addEventCase(infoManger.coordonneCourant) {}
+
+                                                etatJeu.caseEntre(
+                                                    chemin[indexInfoManger - 1].coordonneManger,
+                                                    infoManger.coordonneCourant
+                                                ).forEach {
+                                                    damier.changeCouleurCase(it, CouleurCase.VERT)
+                                                    damier.addEventCase(it) {}
+                                                    casesAvecEvent.add(it)
+                                                }
+
+                                                casesAvecEvent.add(infoManger.coordonneCourant)
+                                            }
+
+                                            if (indexInfoManger === chemin.size - 1)
+                                                infoManger.coordonneApres.forEach {
+                                                    damier.changeCouleurCase(it, CouleurCase.VERT)
+                                                    damier.addEventCase(it) {
+                                                        allEtatJeu.add(etatJeu)
+                                                        etatJeu = etatJeu.manger(chemin, it)
+                                                        partie()
+                                                    }
+                                                }
                                         }
+
+                                    }
+
                                 }
 
                             }
 
                         }
+
+                        coordonneCourantDejaTraiter.add(coordonneCourant)
 
                     }
 
