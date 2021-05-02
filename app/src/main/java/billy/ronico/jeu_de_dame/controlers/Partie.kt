@@ -123,7 +123,10 @@ open class Partie(
                             damier.initCouleur(CouleurCase.VERT)
 
                             evolutionPossible.evolutionManger.forEach { allCheminManger2 ->
-                                if (!(allCheminManger2[0][0].coordonneCourant.compare(coordonneCourant)))
+                                if (!(allCheminManger2[0][0].coordonneCourant.compare(
+                                        coordonneCourant
+                                    ))
+                                )
                                     damier.changeCouleurCase(
                                         allCheminManger2[0][0].coordonneCourant,
                                         CouleurCase.ORANGE
