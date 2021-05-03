@@ -8,6 +8,8 @@ import android.view.View
 import android.widget.Button
 import billy.ronico.jeu_de_dame.models.Setting
 import billy.ronico.jeu_de_dame.utils.loadSetting
+import java.io.FileNotFoundException
+import java.lang.Error
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,9 +18,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var setting = loadSetting(this)
-        if (setting !is Setting)
-            setting = Setting(0, 6, 3)
+        var setting = try {
+            loadSetting(this)
+        } catch (error: FileNotFoundException) {
+            Setting(0, 6, 3)
+        }
+
+
 
         // Recuperation des boutons
         val btn_multijoueur = findViewById<Button>(R.id.btn_multijoueur)

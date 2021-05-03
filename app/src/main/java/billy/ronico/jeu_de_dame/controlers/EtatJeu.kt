@@ -46,16 +46,10 @@ class EtatJeu(
             List(taille) { col ->
                 when {
                     getEtat(
-                        Coordonne(
-                            ligne,
-                            col
-                        )
+                        Coordonne(ligne, col)
                     ) === EtatCase.BLANC && ligne === 0 -> EtatCase.BLANC_DAME
                     getEtat(
-                        Coordonne(
-                            ligne,
-                            col
-                        )
+                        Coordonne(ligne, col)
                     ) === EtatCase.NOIR && ligne === taille - 1 -> EtatCase.NOIR_DAME
                     else -> getEtat(Coordonne(ligne, col))
                 }
