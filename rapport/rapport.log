@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.4.20)  1 MAY 2021 21:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.5.3)  3 MAY 2021 22:26
 entering extended mode
-**c:/Users/billy/AndroidStudioProjects/jeudedame/rapport/squelette.tex
-(c:/Users/billy/AndroidStudioProjects/jeudedame/rapport/squelette.tex
+**c:/Users/billy/AndroidStudioProjects/jeudedame/rapport/rapport.tex
+(c:/Users/billy/AndroidStudioProjects/jeudedame/rapport/rapport.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> xparse <2020-03-03> (C:\Users\billy\Documents\logiciel\MikTex\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -297,8 +297,8 @@ Package csquotes Info: ... found 'babel' package.
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count291
 \l__pdf_internal_box=\box49
-) (squelette.aux)
-\openout1 = `squelette.aux'.
+) (rapport.aux)
+\openout1 = `rapport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -351,9 +351,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 21.
 LaTeX Info: Redefining \pageref on input line 21.
 LaTeX Info: Redefining \nameref on input line 21.
- (squelette.out) (squelette.out)
+ (rapport.out) (rapport.out)
 \@outlinefile=\write3
-\openout3 = `squelette.out'.
+\openout3 = `rapport.out'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
  (C:\Users\billy\Documents\logiciel\MikTex\tex/latex/amsfonts\umsa.fd
@@ -380,29 +380,29 @@ Package pdftex.def Info: Images//partie_1.png  used on input line 58.
 [1
 
 {C:/Users/billy/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-<Images//setting_en.png, id=109, 1445.4pt x 3051.4pt>
+<Images//setting_en.png, id=108, 1445.4pt x 3051.4pt>
 File: Images//setting_en.png Graphic file (type png)
 <use Images//setting_en.png>
 Package pdftex.def Info: Images//setting_en.png  used on input line 82.
 (pdftex.def)             Requested size: 144.54846pt x 305.15788pt.
-<Images//partie_2.png, id=110, 1445.4pt x 3051.4pt>
+<Images//partie_2.png, id=109, 1445.4pt x 3051.4pt>
 File: Images//partie_2.png Graphic file (type png)
 <use Images//partie_2.png>
 Package pdftex.def Info: Images//partie_2.png  used on input line 83.
 (pdftex.def)             Requested size: 144.54846pt x 305.15788pt.
  [2 <./Images//menu_principal.png> <./Images//partie_1.png>]
-<Images//setting_tablet_fr.png, id=120, 1806.75pt x 2569.6pt>
+<Images//setting_tablet_fr.png, id=119, 1806.75pt x 2569.6pt>
 File: Images//setting_tablet_fr.png Graphic file (type png)
 <use Images//setting_tablet_fr.png>
 Package pdftex.def Info: Images//setting_tablet_fr.png  used on input line 99.
 (pdftex.def)             Requested size: 180.68558pt x 256.97505pt.
-<Images//pop_up_victoire_tablet.png, id=121, 1806.75pt x 2569.6pt>
+<Images//pop_up_victoire_tablet.png, id=120, 1806.75pt x 2569.6pt>
 File: Images//pop_up_victoire_tablet.png Graphic file (type png)
 <use Images//pop_up_victoire_tablet.png>
 Package pdftex.def Info: Images//pop_up_victoire_tablet.png  used on input line 100.
 (pdftex.def)             Requested size: 180.68558pt x 256.97505pt.
  [3 <./Images//setting_en.png> <./Images//partie_2.png>]
-<Images//diagramme_android.png, id=128, 1510.64375pt x 1401.235pt>
+<Images//diagramme_android.png, id=127, 1510.64375pt x 1401.235pt>
 File: Images//diagramme_android.png Graphic file (type png)
 <use Images//diagramme_android.png>
 Package pdftex.def Info: Images//diagramme_android.png  used on input line 126.
@@ -417,27 +417,27 @@ Overfull \hbox (16.30609pt too wide) in paragraph at lines 228--228
  []
 
 [6] [7]
-<Images//diagramme_iospng.png, id=150, 1557.82pt x 1528.71124pt>
+<Images//diagramme_iospng.png, id=149, 1557.82pt x 1528.71124pt>
 File: Images//diagramme_iospng.png Graphic file (type png)
 <use Images//diagramme_iospng.png>
 Package pdftex.def Info: Images//diagramme_iospng.png  used on input line 304.
 (pdftex.def)             Requested size: 405.02365pt x 397.45555pt.
- [8] [9 <./Images//diagramme_iospng.png>] (squelette.bbl) [10] (squelette.aux)
-Package rerunfilecheck Info: File `squelette.out' has not changed.
+ [8] [9 <./Images//diagramme_iospng.png>] (rapport.bbl) [10] (rapport.aux)
+Package rerunfilecheck Info: File `rapport.out' has not changed.
 (rerunfilecheck)             Checksum: 4D242D135134DF73905E243B7AA5107E;3948.
  ) 
 Here is how much of TeX's memory you used:
- 11650 strings out of 479337
- 170407 string characters out of 2859035
- 502988 words of memory out of 3000000
- 28882 multiletter control sequences out of 15000+200000
- 417628 words of font info for 64 fonts, out of 3000000 for 9000
+ 11645 strings out of 479337
+ 170310 string characters out of 2859036
+ 502978 words of memory out of 3000000
+ 28879 multiletter control sequences out of 15000+200000
+ 416864 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,6n,74p,477b,532s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
-Output written on squelette.pdf (10 pages, 1409050 bytes).
+ 71i,6n,74p,475b,532s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
+Output written on rapport.pdf (10 pages, 1407992 bytes).
 PDF statistics:
- 538 PDF objects out of 1000 (max. 8388607)
+ 532 PDF objects out of 1000 (max. 8388607)
  36 named destinations out of 1000 (max. 500000)
  217 words of extra memory for PDF output out of 10000 (max. 10000000)
 

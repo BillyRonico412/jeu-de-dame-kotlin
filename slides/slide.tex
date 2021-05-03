@@ -247,7 +247,9 @@
   L'implémentation du jeu utilise le motifs d'architecture MVC
 
   \begin{itemize}
-    \item \textbf{Model}: \color{blue}
+    \item \textbf{Model}: Permet de gerer toute la logique du Jeu
+    \item \textbf{Vue}: Permet de gerer l'affichage
+    \item \textbf{Controlleur}: Permet de faire le lien entre le model et la vue
   \end{itemize}
 
 \end{frame}
@@ -261,16 +263,62 @@
 \end{frame}
 %
 %
+
+\subsection{IA}
+
 \begin{frame}
-  \frametitle{Machin}
+  \frametitle{Algorithme MiniMax}
+
+  \begin{center}
+    \includegraphics[scale=0.12]{minimax.png}
+  \end{center}
+
+  
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{IA}
+
+  \begin{itemize}
+    \item Le mode \textbf{joueur vs IA} met en jeu un IA 
+    \item L'IA est implémenter avec l'algorithme minimax sans élagage alpha béta
+    \item La fonction d'évalation corréspond au nombre de pions adverse pris, 
+    soustrait au nombre de pions que l'adversaire nous a pris
+    \item En effectuant l'algorithme sur une profondeur de 2,
+    On a déja un IA capable de battre un débutant.
+    \item L'Ia propose même des strategies très intérressants avec une profondeur de 4
+    \item Pour des raisons de performances, 
+    on pourra pas aller au dessus d'une profondeur de 6
+  \end{itemize}
+
 \end{frame}
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%
-%
-%
+
+\begin{frame}
+  \frametitle{Point délicat}
+  \subsection{Point délicat}
+  \begin{itemize}
+    \item Le paradigme orienté objet ?
+    \item Compléxité du jeu de dame ?
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Point intéréssant}
+  \subsection{Point intéréssant}
+  \begin{itemize}
+    \item Kotlin, le meilleur language de programmation ?
+    \item L'IA, pas si durs que ça !
+    \item Utilisation de tout les notions vue durant la licence !
+  \end{itemize}
+
+\end{frame}
+
+
 \end{document}

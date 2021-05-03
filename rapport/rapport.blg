@@ -1,13 +1,13 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: squelette.aux
+The top-level auxiliary file: rapport.aux
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 Database file #1: ma_biblio.bib
 You've used 2 entries,
             2118 wiz_defined-function locations,
-            506 strings with 4197 characters,
+            506 strings with 4193 characters,
 and the built_in function-call counts, 332 in all, are:
 = -- 28
 > -- 2

@@ -53,15 +53,27 @@
 \headcommand {\beamer@subsectionentry {0}{3}{1}{17}{Diagramme UML}}
 \headcommand {\slideentry {3}{1}{1}{17/17}{Diagramme UML}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {3}{1}{2}{18/18}{Diagramme UML}{0}}
+\headcommand {\beamer@subsectionpages {17}{17}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{18}{IA}}
+\headcommand {\slideentry {3}{2}{1}{18/18}{IA}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\beamer@sectionpages {15}{18}}
-\headcommand {\beamer@subsectionpages {17}{18}}
-\headcommand {\sectionentry {4}{Conclusion}{19}{Conclusion}{0}}
-\headcommand {\slideentry {4}{0}{1}{19/19}{}{0}}
+\headcommand {\slideentry {3}{2}{2}{19/19}{IA}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@partpages {1}{19}}
-\headcommand {\beamer@subsectionpages {19}{19}}
-\headcommand {\beamer@sectionpages {19}{19}}
-\headcommand {\beamer@documentpages {19}}
-\headcommand {\gdef \inserttotalframenumber {19}}
+\headcommand {\beamer@sectionpages {15}{19}}
+\headcommand {\beamer@subsectionpages {18}{19}}
+\headcommand {\sectionentry {4}{Conclusion}{20}{Conclusion}{0}}
+\headcommand {\slideentry {4}{0}{1}{20/20}{}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\beamer@subsectionpages {20}{20}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{21}{Point délicat}}
+\headcommand {\slideentry {4}{1}{0}{21/21}{}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\beamer@subsectionpages {20}{21}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{22}{Point intéréssant}}
+\headcommand {\slideentry {4}{2}{0}{22/22}{}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\beamer@partpages {1}{22}}
+\headcommand {\beamer@subsectionpages {20}{22}}
+\headcommand {\beamer@sectionpages {20}{22}}
+\headcommand {\beamer@documentpages {22}}
+\headcommand {\gdef \inserttotalframenumber {22}}

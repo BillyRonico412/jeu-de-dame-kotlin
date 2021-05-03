@@ -8,4 +8,7 @@
 \beamer@subsectionintoc {2}{3}{Plateau de jeu}{12}{0}{2}
 \beamer@sectionintoc {3}{Analyse du code}{15}{0}{3}
 \beamer@subsectionintoc {3}{1}{Diagramme UML}{17}{0}{3}
-\beamer@sectionintoc {4}{Conclusion}{19}{0}{4}
+\beamer@subsectionintoc {3}{2}{IA}{18}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{20}{0}{4}
+\beamer@subsectionintoc {4}{1}{Point délicat}{21}{0}{4}
+\beamer@subsectionintoc {4}{2}{Point intéréssant}{22}{0}{4}
