@@ -1,6 +1,6 @@
 package billy.ronico.jeu_de_dame.ia
 
-import billy.ronico.jeu_de_dame.controlers.EtatJeu
+import billy.ronico.jeu_de_dame.models.EtatJeu
 import billy.ronico.jeu_de_dame.enums.Tour
 import billy.ronico.jeu_de_dame.models.ArbreEtat
 import billy.ronico.jeu_de_dame.models.ArbreVideEtat

@@ -1,11 +1,9 @@
 package billy.ronico.jeu_de_dame.controlers
 
-import android.content.Context
-import billy.ronico.jeu_de_dame.FinPartieDialog
 import billy.ronico.jeu_de_dame.enums.CouleurCase
 import billy.ronico.jeu_de_dame.enums.Tour
-import billy.ronico.jeu_de_dame.ia.IA
 import billy.ronico.jeu_de_dame.models.Coordonne
+import billy.ronico.jeu_de_dame.models.EtatJeu
 import billy.ronico.jeu_de_dame.models.Evolution
 import billy.ronico.jeu_de_dame.models.InfoManger
 import billy.ronico.jeu_de_dame.views.Damier

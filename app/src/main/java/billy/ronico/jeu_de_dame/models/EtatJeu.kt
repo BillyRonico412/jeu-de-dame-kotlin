@@ -1,9 +1,8 @@
-package billy.ronico.jeu_de_dame.controlers
+package billy.ronico.jeu_de_dame.models
 
 import billy.ronico.jeu_de_dame.enums.EtatCase
 import billy.ronico.jeu_de_dame.enums.Tour
 import billy.ronico.jeu_de_dame.enums.TypePiece
-import billy.ronico.jeu_de_dame.models.*
 
 class EtatJeu(
     val nbrePiece: Int,

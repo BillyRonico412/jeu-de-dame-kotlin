@@ -1,6 +1,5 @@
 package billy.ronico.jeu_de_dame.models
 
-import billy.ronico.jeu_de_dame.controlers.EtatJeu
 import billy.ronico.jeu_de_dame.enums.Tour
 
 interface ArbreEtat {

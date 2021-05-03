@@ -1,6 +1,11 @@
 \babel@toc {french}{}
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{Presentation du jeu de dame}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Presentation du jeu}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Règles de jeu}{5}{0}{1}
-\beamer@sectionintoc {2}{Bla bla bla}{9}{0}{2}
-\beamer@sectionintoc {3}{Conclusion}{12}{0}{3}
+\beamer@sectionintoc {2}{Presentation de l'application}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Menu principal}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{Paramètre}{10}{0}{2}
+\beamer@subsectionintoc {2}{3}{Plateau de jeu}{12}{0}{2}
+\beamer@sectionintoc {3}{Analyse du code}{15}{0}{3}
+\beamer@subsectionintoc {3}{1}{Diagramme UML}{17}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{19}{0}{4}

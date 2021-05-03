@@ -2,7 +2,7 @@ package billy.ronico.jeu_de_dame.views
 
 import android.content.Context
 import android.widget.LinearLayout
-import billy.ronico.jeu_de_dame.controlers.EtatJeu
+import billy.ronico.jeu_de_dame.models.EtatJeu
 import billy.ronico.jeu_de_dame.enums.CouleurCase
 import billy.ronico.jeu_de_dame.enums.EtatCase
 import billy.ronico.jeu_de_dame.models.Coordonne

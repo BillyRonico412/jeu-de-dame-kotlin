@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.5.3)  3 MAY 2021 10:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.5.3)  3 MAY 2021 11:56
 entering extended mode
 **c:/Users/billy/AndroidStudioProjects/jeudedame/slides/squeletteBeamer.tex
 (c:/Users/billy/AndroidStudioProjects/jeudedame/slides/squeletteBeamer.tex
@@ -834,7 +834,7 @@ LaTeX Info: Redefining \up on input line 73.
 ] [3
 
 ]
-<Images//img_dame.jpg, id=146, 462.528pt x 307.3884pt>
+<Images//img_dame.jpg, id=177, 462.528pt x 307.3884pt>
 File: Images//img_dame.jpg Graphic file (type jpg)
 <use Images//img_dame.jpg>
 Package pdftex.def Info: Images//img_dame.jpg  used on input line 108.
@@ -845,19 +845,94 @@ Package pdftex.def Info: Images//img_dame.jpg  used on input line 108.
 
 ] [6
 
-] [7
+] (squeletteBeamer.toc) [7
 
-] [8
+]
+<Images//menu_principal.png, id=290, 1445.4pt x 3051.4pt>
+File: Images//menu_principal.png Graphic file (type png)
+<use Images//menu_principal.png>
+Package pdftex.def Info: Images//menu_principal.png  used on input line 160.
+(pdftex.def)             Requested size: 72.27423pt x 152.57893pt.
+<Images//menu_fr.png, id=292, 1445.4pt x 3051.4pt>
+File: Images//menu_fr.png Graphic file (type png)
+<use Images//menu_fr.png>
+Package pdftex.def Info: Images//menu_fr.png  used on input line 160.
+(pdftex.def)             Requested size: 72.27423pt x 152.57893pt.
+ [8
 
-] (squeletteBeamer.toc) [9
+ <./Images//menu_principal.png> <./Images//menu_fr.png>]
+<Images//menu_tablet.png, id=322, 1806.75pt x 2569.6pt>
+File: Images//menu_tablet.png Graphic file (type png)
+<use Images//menu_tablet.png>
+Package pdftex.def Info: Images//menu_tablet.png  used on input line 175.
+(pdftex.def)             Requested size: 108.40031pt x 154.16934pt.
+ [9
 
-] [10
+ <./Images//menu_tablet.png>]
+<Images//setting_francais.png, id=349, 1445.4pt x 3051.4pt>
+File: Images//setting_francais.png Graphic file (type png)
+<use Images//setting_francais.png>
+Package pdftex.def Info: Images//setting_francais.png  used on input line 187.
+(pdftex.def)             Requested size: 72.27423pt x 152.57893pt.
+<Images//setting_en.png, id=350, 1445.4pt x 3051.4pt>
+File: Images//setting_en.png Graphic file (type png)
+<use Images//setting_en.png>
+Package pdftex.def Info: Images//setting_en.png  used on input line 187.
+(pdftex.def)             Requested size: 72.27423pt x 152.57893pt.
+ [10
 
-] [11
+ <./Images//setting_francais.png> <./Images//setting_en.png>]
+<Images//setting_tablet_fr.png, id=379, 1806.75pt x 2569.6pt>
+File: Images//setting_tablet_fr.png Graphic file (type png)
+<use Images//setting_tablet_fr.png>
+Package pdftex.def Info: Images//setting_tablet_fr.png  used on input line 202.
+(pdftex.def)             Requested size: 108.40031pt x 154.16934pt.
+ [11
 
-] (squeletteBeamer.toc) [12
+ <./Images//setting_tablet_fr.png>]
+<Images//partie_1.png, id=406, 1445.4pt x 3051.4pt>
+File: Images//partie_1.png Graphic file (type png)
+<use Images//partie_1.png>
+Package pdftex.def Info: Images//partie_1.png  used on input line 212.
+(pdftex.def)             Requested size: 72.27423pt x 152.57893pt.
+<Images//partie_2.png, id=407, 1445.4pt x 3051.4pt>
+File: Images//partie_2.png Graphic file (type png)
+<use Images//partie_2.png>
+Package pdftex.def Info: Images//partie_2.png  used on input line 212.
+(pdftex.def)             Requested size: 72.27423pt x 152.57893pt.
+ [12
 
-] [13
+ <./Images//partie_1.png> <./Images//partie_2.png>]
+<Images//screen_tablet.png, id=436, 1806.75pt x 2569.6pt>
+File: Images//screen_tablet.png Graphic file (type png)
+<use Images//screen_tablet.png>
+Package pdftex.def Info: Images//screen_tablet.png  used on input line 223.
+(pdftex.def)             Requested size: 108.40031pt x 154.16934pt.
+ [13
+
+ <./Images//screen_tablet.png>]
+<Images//pop_up_victoire_tablet.png, id=464, 1806.75pt x 2569.6pt>
+File: Images//pop_up_victoire_tablet.png Graphic file (type png)
+<use Images//pop_up_victoire_tablet.png>
+Package pdftex.def Info: Images//pop_up_victoire_tablet.png  used on input line 234.
+(pdftex.def)             Requested size: 108.40031pt x 154.16934pt.
+ [14
+
+ <./Images//pop_up_victoire_tablet.png>] (squeletteBeamer.toc) [15
+
+] [16
+
+]
+<Images//diagramme_android.png, id=553, 1510.64375pt x 1401.235pt>
+File: Images//diagramme_android.png Graphic file (type png)
+<use Images//diagramme_android.png>
+Package pdftex.def Info: Images//diagramme_android.png  used on input line 261.
+(pdftex.def)             Requested size: 226.58678pt x 210.17618pt.
+ [17
+
+ <./Images//diagramme_android.png>] [18
+
+] (squeletteBeamer.toc) [19
 
 ]
 \tf@nav=\write6
@@ -871,20 +946,20 @@ Package pdftex.def Info: Images//img_dame.jpg  used on input line 108.
 
  (squeletteBeamer.aux)
 Package rerunfilecheck Info: File `squeletteBeamer.out' has not changed.
-(rerunfilecheck)             Checksum: 4EDFF17682854A97536578013982F38B;635.
+(rerunfilecheck)             Checksum: 58BE96F99D08D7E61B85DE3B78C23DB7;1300.
  ) 
 Here is how much of TeX's memory you used:
- 22923 strings out of 479337
- 422098 string characters out of 2859036
- 737128 words of memory out of 3000000
- 39867 multiletter control sequences out of 15000+200000
- 408655 words of font info for 35 fonts, out of 3000000 for 9000
+ 23041 strings out of 479337
+ 424460 string characters out of 2859036
+ 739135 words of memory out of 3000000
+ 39953 multiletter control sequences out of 15000+200000
+ 409430 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,15n,132p,474b,813s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0600.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk>
-Output written on squeletteBeamer.pdf (13 pages, 524355 bytes).
+ <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0600.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk>
+Output written on squeletteBeamer.pdf (19 pages, 1940041 bytes).
 PDF statistics:
- 581 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 853 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 243 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -83,8 +83,8 @@
 %
 %
 \begin{frame}
-  \frametitle{Introduction}
-    \subsection{Presentation du jeu de dame}
+  \frametitle{Presentation du jeu}
+    \subsection{Presentation du jeu}
     Le jeu de dame est un jeu de strategie qui date du debut du 18 ème siècle. 
     
     Il se joue sur un damier de taille n * n (en général 10 * 10).
@@ -95,7 +95,7 @@
 %
 %
 \begin{frame}
-  \frametitle{Introduction}
+  \frametitle{Presentation du jeu}
 
   \begin{center}
     \includegraphics[scale=0.5]{img_dame.jpg}
@@ -108,7 +108,8 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Introduction}
+
+  \frametitle{Règles de jeu}
 
   \subsection{Règles de jeu}
 
@@ -126,7 +127,7 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Introduction}
+  \frametitle{Règles de jeu}
   \begin{itemize}
     \item Un pion peut en prendre un autre en sautant par dessus le pion adverse
      pour se rendre sur la case vide située derrière celui-ci. Le pion sauté est retiré du jeu.
@@ -139,22 +140,124 @@
   \end{itemize}
 \end{frame}
 
+\section{Presentation de l'application}
+
 \begin{frame}
-  \frametitle{Introduction}
+  \frametitle{Menu principal - smartphone}
+  \subsection{Menu principal}
+
+  \begin{center}
+    Jeu old school <==> Design old school
+  \end{center}
+
+  \begin{center}
+    \includegraphics[scale=0.05]{menu_principal.png}
+    \includegraphics[scale=0.05]{menu_fr.png}
+  \end{center}
+
+  Le menu principal est disponible en \textbf{"Français"} et en \textbf{"Anglais"}
+
 \end{frame}
 
 \begin{frame}
-  \frametitle{Introduction}
+  \frametitle{Menu principal - tablette}
+
+  \begin{center}
+    \includegraphics[scale=0.06]{menu_tablet.png}
+  \end{center}
+
+  \begin{center}
+    Le menu est totalement \textbf{responsive}
+  
+    Utilisation de \textbf{ConstraintLayout}
+  \end{center}
+
 \end{frame}
+
+\begin{frame}
+  \frametitle{Paramètre - smartphone}
+  \subsection{Paramètre}
+  \begin{center}
+    \includegraphics[scale=0.05]{setting_francais.png}
+    \includegraphics[scale=0.05]{setting_en.png}
+  \end{center}
+
+  Le paramètre est disponible en \textbf{"Français"} et en \textbf{"Anglais"}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Paramètre - tablette}
+
+  \begin{center}
+    \includegraphics[scale=0.06]{setting_tablet_fr.png}
+  \end{center}
+
+  \begin{center}
+    Totalement \textbf{responsive}
+  
+    Utilisation de \textbf{ConstraintLayout}
+  \end{center}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Plateau de jeu}
+  \subsection{Plateau de jeu}
+  \begin{center}
+    \includegraphics[scale=0.05]{partie_1.png}
+    \includegraphics[scale=0.05]{partie_2.png}
+  \end{center}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Plateau de jeu sur tablette}
+  \begin{center}
+    \includegraphics[scale=0.06]{screen_tablet.png}
+  \end{center}
+  
+  \begin{center}
+    Totalement \textbf{responsive}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Plateau de jeu sur tablette}
+  \begin{center}
+    \includegraphics[scale=0.06]{pop_up_victoire_tablet.png}
+  \end{center}
+  
+  \begin{center}
+    Le pop up lorsqu'un joueur gagne la partie
+  \end{center}
+\end{frame}
+
+
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Bla bla bla}
+\section{Analyse du code}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %
 \begin{frame}
-  \frametitle{Truc}
+  \frametitle{Le model MVC}
+
+  L'implémentation du jeu utilise le motifs d'architecture MVC
+
+  \begin{itemize}
+    \item \textbf{Model}: \color{blue}
+  \end{itemize}
+
+\end{frame}
+
+\subsection{Diagramme UML}
+\begin{frame}
+  \frametitle{Diagramme UML}
+  \begin{center}
+    \includegraphics[scale=0.15]{diagramme_android.png}
+  \end{center}
 \end{frame}
 %
 %
@@ -168,14 +271,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %
-\begin{frame}
-  \frametitle{Conclusion}
-  \begin{itemize}
-    \item
-    \item
-    \item
-  \end{itemize}
-\end{frame}
 %
 %
 \end{document}
