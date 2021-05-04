@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.5.3)  3 MAY 2021 22:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.5.3)  4 MAY 2021 06:53
 entering extended mode
 **c:/Users/billy/AndroidStudioProjects/jeudedame/slides/slide.tex
 (c:/Users/billy/AndroidStudioProjects/jeudedame/slides/slide.tex
@@ -872,12 +872,12 @@ Package pdftex.def Info: Images//menu_tablet.png  used on input line 175.
 <Images//setting_francais.png, id=370, 1445.4pt x 3051.4pt>
 File: Images//setting_francais.png Graphic file (type png)
 <use Images//setting_francais.png>
-Package pdftex.def Info: Images//setting_francais.png  used on input line 187.
+Package pdftex.def Info: Images//setting_francais.png  used on input line 190.
 (pdftex.def)             Requested size: 72.27423pt x 152.57893pt.
 <Images//setting_en.png, id=371, 1445.4pt x 3051.4pt>
 File: Images//setting_en.png Graphic file (type png)
 <use Images//setting_en.png>
-Package pdftex.def Info: Images//setting_en.png  used on input line 187.
+Package pdftex.def Info: Images//setting_en.png  used on input line 190.
 (pdftex.def)             Requested size: 72.27423pt x 152.57893pt.
  [10
 
@@ -885,7 +885,7 @@ Package pdftex.def Info: Images//setting_en.png  used on input line 187.
 <Images//setting_tablet_fr.png, id=400, 1806.75pt x 2569.6pt>
 File: Images//setting_tablet_fr.png Graphic file (type png)
 <use Images//setting_tablet_fr.png>
-Package pdftex.def Info: Images//setting_tablet_fr.png  used on input line 202.
+Package pdftex.def Info: Images//setting_tablet_fr.png  used on input line 205.
 (pdftex.def)             Requested size: 108.40031pt x 154.16934pt.
  [11
 
@@ -893,12 +893,12 @@ Package pdftex.def Info: Images//setting_tablet_fr.png  used on input line 202.
 <Images//partie_1.png, id=427, 1445.4pt x 3051.4pt>
 File: Images//partie_1.png Graphic file (type png)
 <use Images//partie_1.png>
-Package pdftex.def Info: Images//partie_1.png  used on input line 212.
+Package pdftex.def Info: Images//partie_1.png  used on input line 218.
 (pdftex.def)             Requested size: 72.27423pt x 152.57893pt.
 <Images//partie_2.png, id=428, 1445.4pt x 3051.4pt>
 File: Images//partie_2.png Graphic file (type png)
 <use Images//partie_2.png>
-Package pdftex.def Info: Images//partie_2.png  used on input line 212.
+Package pdftex.def Info: Images//partie_2.png  used on input line 218.
 (pdftex.def)             Requested size: 72.27423pt x 152.57893pt.
  [12
 
@@ -906,7 +906,7 @@ Package pdftex.def Info: Images//partie_2.png  used on input line 212.
 <Images//screen_tablet.png, id=457, 1806.75pt x 2569.6pt>
 File: Images//screen_tablet.png Graphic file (type png)
 <use Images//screen_tablet.png>
-Package pdftex.def Info: Images//screen_tablet.png  used on input line 223.
+Package pdftex.def Info: Images//screen_tablet.png  used on input line 229.
 (pdftex.def)             Requested size: 108.40031pt x 154.16934pt.
  [13
 
@@ -914,7 +914,7 @@ Package pdftex.def Info: Images//screen_tablet.png  used on input line 223.
 <Images//pop_up_victoire_tablet.png, id=485, 1806.75pt x 2569.6pt>
 File: Images//pop_up_victoire_tablet.png Graphic file (type png)
 <use Images//pop_up_victoire_tablet.png>
-Package pdftex.def Info: Images//pop_up_victoire_tablet.png  used on input line 234.
+Package pdftex.def Info: Images//pop_up_victoire_tablet.png  used on input line 240.
 (pdftex.def)             Requested size: 108.40031pt x 154.16934pt.
  [14
 
@@ -926,7 +926,7 @@ Package pdftex.def Info: Images//pop_up_victoire_tablet.png  used on input line 
 <Images//diagramme_android.png, id=577, 1510.64375pt x 1401.235pt>
 File: Images//diagramme_android.png Graphic file (type png)
 <use Images//diagramme_android.png>
-Package pdftex.def Info: Images//diagramme_android.png  used on input line 263.
+Package pdftex.def Info: Images//diagramme_android.png  used on input line 269.
 (pdftex.def)             Requested size: 226.58678pt x 210.17618pt.
  [17
 
@@ -934,7 +934,7 @@ Package pdftex.def Info: Images//diagramme_android.png  used on input line 263.
 <Images//minimax.png, id=604, 1927.2pt x 878.28125pt>
 File: Images//minimax.png Graphic file (type png)
 <use Images//minimax.png>
-Package pdftex.def Info: Images//minimax.png  used on input line 278.
+Package pdftex.def Info: Images//minimax.png  used on input line 284.
 (pdftex.def)             Requested size: 231.25403pt x 105.38919pt.
  [18
 
@@ -961,17 +961,17 @@ Package rerunfilecheck Info: File `slide.out' has not changed.
 (rerunfilecheck)             Checksum: D2F3F062D4853A7FFF5A2C7A12D278A7;1652.
  ) 
 Here is how much of TeX's memory you used:
- 23075 strings out of 479337
- 424600 string characters out of 2859036
- 740018 words of memory out of 3000000
- 39977 multiletter control sequences out of 15000+200000
+ 23076 strings out of 479337
+ 424617 string characters out of 2859036
+ 740017 words of memory out of 3000000
+ 39978 multiletter control sequences out of 15000+200000
  409430 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,15n,132p,464b,813s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0600.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk> <C:\Users\billy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk>
-Output written on slide.pdf (22 pages, 2055177 bytes).
+Output written on slide.pdf (22 pages, 2055996 bytes).
 PDF statistics:
- 974 PDF objects out of 1000 (max. 8388607)
+ 976 PDF objects out of 1000 (max. 8388607)
  58 named destinations out of 1000 (max. 500000)
  272 words of extra memory for PDF output out of 10000 (max. 10000000)
 
